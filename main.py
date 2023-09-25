@@ -11,6 +11,14 @@ import sys
 import time
 import json
 
+
+import os
+current_directory = os.getcwd()
+print("Current Directory:", current_directory)
+import sys
+print("Python Module Paths:", sys.path)
+
+
 # secretという名前の辞書を作成して、キーとエンドポイントを格納します
 secret = {
     "KEY": "965508752d324b35b942b76554297410",
